@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products — NOVA Smart Rings, Bands, Watches & Chronic Care</title>
+  <meta name="description" content="Browse all 23 NOVA health wearables: smart rings, screenless health bands, ECG smart watches and chronic disease monitoring devices.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23d7ff3f'/><text x='50' y='68' font-size='52' text-anchor='middle' font-family='Arial' font-weight='bold' fill='%230a0a0b'>N</text></svg>">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">N</span>NOVA</a>
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html" aria-current="page">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="cart-btn" href="cart.html" aria-label="View cart">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          Cart <span class="cart-badge" data-cart-badge>0</span>
+        </a>
+        <button class="menu-toggle" data-menu-toggle aria-label="Open menu" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb"><a href="index.html">Home</a> <span>/</span> <span>Products</span></nav>
+      <h1>All products</h1>
+      <p>Twenty-three devices. One ecosystem. Every NOVA product pairs with the same app, cloud and AI — so your health data follows you across rings, bands and watches.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:2.5rem">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-pill is-active" data-filter="all">All</button>
+        <button class="filter-pill" data-filter="rings">Smart Rings</button>
+        <button class="filter-pill" data-filter="bands">Smart Bands</button>
+        <button class="filter-pill" data-filter="watches">Smart Watches</button>
+        <button class="filter-pill" data-filter="chronic">Chronic Care</button>
+        <div class="filter-tools">
+          <input class="search-box" data-search type="search" placeholder="Search products…" aria-label="Search products">
+          <select class="sort-select" data-sort aria-label="Sort products">
+            <option value="featured">Sort: Featured</option>
+            <option value="price-asc">Price: Low → High</option>
+            <option value="price-desc">Price: High → Low</option>
+            <option value="name">Name: A → Z</option>
+          </select>
+        </div>
+      </div>
+      <p class="result-count" data-result-count></p>
+      <div class="product-grid" data-products-grid></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"><span class="brand-mark">N</span>NOVA</a>
+          <p>Health, in the round. Precision wearables for sleep, recovery, women's health and chronic care — backed by 20+ years of medical-grade wearable manufacturing.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="products.html?cat=rings">Smart Rings</a>
+          <a href="products.html?cat=bands">Smart Bands</a>
+          <a href="products.html?cat=watches">Smart Watches</a>
+          <a href="products.html?cat=chronic">Chronic Care</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About NOVA</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html#quality">Quality & certifications</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="cart.html">Cart & checkout</a>
+          <a href="contact.html">Order help</a>
+          <a href="contact.html#faq">FAQs</a>
+          <a href="mailto:hello@novahealth.example.com">hello@novahealth.example.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 NOVA. All rights reserved. Whitelabel demo — replace brand & pricing before launch.</span>
+        <span>Privacy · Terms · 30-day returns</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/pages/products-page.js"></script>
+</body>
+</html>

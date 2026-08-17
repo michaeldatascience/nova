@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact NOVA — Support, Orders & Partnerships</title>
+  <meta name="description" content="Contact NOVA support, order help, or partnership inquiries. We reply within one business day.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23d7ff3f'/><text x='50' y='68' font-size='52' text-anchor='middle' font-family='Arial' font-weight='bold' fill='%230a0a0b'>N</text></svg>">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">N</span>NOVA</a>
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="cart-btn" href="cart.html" aria-label="View cart">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          Cart <span class="cart-badge" data-cart-badge>0</span>
+        </a>
+        <button class="menu-toggle" data-menu-toggle aria-label="Open menu" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb"><a href="index.html">Home</a> <span>/</span> <span>Contact</span></nav>
+      <h1>We're here to help</h1>
+      <p>Questions about an order, a device, or partnerships? Send a message and we'll reply within one business day.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:2.5rem">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <div class="contact-card reveal">
+            <h3>Email support</h3>
+            <p>For orders, returns and device questions.</p>
+            <a class="hl" href="mailto:hello@novahealth.example.com">hello@novahealth.example.com</a>
+          </div>
+          <div class="contact-card reveal">
+            <h3>WhatsApp</h3>
+            <p>Fastest response — message us anytime.</p>
+            <a class="hl" href="https://wa.me/15551234567">Chat on WhatsApp →</a>
+          </div>
+          <div class="contact-card reveal">
+            <h3>Business & partnerships</h3>
+            <p>Wholesale, white-label and enterprise health programs welcome.</p>
+            <a class="hl" href="mailto:hello@novahealth.example.com">partners@novahealth.example.com</a>
+          </div>
+          <div class="contact-card reveal" id="faq">
+            <h3>Quick answers</h3>
+            <div class="faq-item">
+              <h4>How long does shipping take?</h4>
+              <p>Orders dispatch within 48 hours. Standard delivery is 3–7 business days, free over $100.</p>
+            </div>
+            <div class="faq-item">
+              <h4>What is the return policy?</h4>
+              <p>30-day, no-questions returns on unused products. Every device carries a 12-month warranty.</p>
+            </div>
+            <div class="faq-item">
+              <h4>Is the ring waterproof?</h4>
+              <p>Yes — 5ATM (50 m) waterproofing on all rings; IP68 on bands. Shower, swim and train with it.</p>
+            </div>
+            <div class="faq-item">
+              <h4>Are these medical devices?</h4>
+              <p>They are wellness and screening devices, not diagnostic tools. The Sleep Belt 1657B is a Class I medical instrument. Always consult a physician for medical decisions.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="summary-card" style="position:static">
+            <h3>Send a message</h3>
+            <form class="form-grid" data-contact-form novalidate>
+              <div class="field"><label>Name *</label><input name="name" required><span class="err"></span></div>
+              <div class="field"><label>Email *</label><input type="email" name="email" required><span class="err"></span></div>
+              <div class="field full"><label>Topic</label>
+                <select name="topic">
+                  <option>Order support</option>
+                  <option>Product question</option>
+                  <option>Returns & warranty</option>
+                  <option>Wholesale / partnership</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="field full"><label>Message *</label><textarea name="message" rows="5" required style="background:var(--bg-2);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.8rem 1rem;color:var(--text);font-size:.95rem;font-family:inherit;resize:vertical;outline:none"></textarea><span class="err"></span></div>
+              <div class="field full">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Send message</button>
+                <p class="faint" style="font-size:.78rem;text-align:center;margin-top:.7rem">This demo form opens your email client. Connect a form service (e.g. Formspree) for live submissions.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"><span class="brand-mark">N</span>NOVA</a>
+          <p>Health, in the round. Precision wearables for sleep, recovery, women's health and chronic care — backed by 20+ years of medical-grade wearable manufacturing.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="products.html?cat=rings">Smart Rings</a>
+          <a href="products.html?cat=bands">Smart Bands</a>
+          <a href="products.html?cat=watches">Smart Watches</a>
+          <a href="products.html?cat=chronic">Chronic Care</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About NOVA</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html#quality">Quality & certifications</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="cart.html">Cart & checkout</a>
+          <a href="contact.html">Order help</a>
+          <a href="contact.html#faq">FAQs</a>
+          <a href="mailto:hello@novahealth.example.com">hello@novahealth.example.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 NOVA. All rights reserved. Whitelabel demo — replace brand & pricing before launch.</span>
+        <span>Privacy · Terms · 30-day returns</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    /* Contact form → mailto fallback (demo) */
+    document.querySelector("[data-contact-form]").addEventListener("submit", function (e) {
+      e.preventDefault();
+      let ok = true;
+      this.querySelectorAll("[required]").forEach((input) => {
+        const valid = input.checkValidity();
+        input.classList.toggle("invalid", !valid);
+        input.closest(".field").querySelector(".err").textContent = valid ? "" : "This field is required";
+        if (!valid) ok = false;
+      });
+      if (!ok) return;
+      const d = new FormData(this);
+      const subject = encodeURIComponent("NOVA inquiry — " + (d.get("topic") || "General"));
+      const body = encodeURIComponent("Name: " + d.get("name") + "\nEmail: " + d.get("email") + "\n\n" + d.get("message"));
+      window.location.href = "mailto:hello@novahealth.example.com?subject=" + subject + "&body=" + body;
+    });
+  </script>
+</body>
+</html>
